@@ -1,0 +1,75 @@
+/* General styling for the main content */
+main {
+    margin-left: 250px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+/* Styling for the heading */
+.head1 {
+    font-size: 100%;
+    color: rgba(21, 8, 8, 0.836);
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #F7DBD2;
+    border-radius: 25px;
+    margin: 10px;
+    table-layout: auto;
+}
+
+/* Styling for table cells and headers */
+td, th {
+    padding: 8px 12px;
+    text-align: center;
+    border-bottom: 1px solid #DF9086;
+    white-space: nowrap;
+    max-width: 150px; /* Adjust as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Row styling */
+tr {
+    height: max-content;
+    font-size: medium;
+    font-weight: 400;
+}
+
+/* Header styling */
+th {
+    font-size: medium;
+}
+
+/* Container styling for overflow */
+.container {
+    margin: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: max-content;
+    height: auto;
+    background-color: #F7DBD2;
+    border-radius: 25px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+/* Specific styling for table container */
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    width: max-content;
+}
+
+/* Word-wrap for table data */
+td {
+    word-wrap: break-word;
+}
+
+
